@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{vmargin}
+
+\setmargins{2.5cm}       % margen izquierdo
+{1.5cm}                        % margen superior
+{16.5cm}                      % anchura del texto
+{23.42cm}                    % altura del texto
+{10pt}                           % altura de los encabezados
+{1cm}                           % espacio entre el texto y los encabezados
+{0pt}                             % altura del pie de página
+{2cm}                           % espacio entre el texto y el pie de página
+
+
+\renewcommand{\abstractname}{Descripción}   % Cambiamos el nombre del abstract
+
+\makeatletter
+\newcommand*{\bigcdot}{}% Check if undefined
+\DeclareRobustCommand*{\bigcdot}{%
+  \mathbin{\mathpalette\bigcdot@{}}%
+}
+\newcommand*{\bigcdot@scalefactor}{.5}
+\newcommand*{\bigcdot@widthfactor}{1.15}
+\newcommand*{\bigcdot@}[2]{%
+  % #1: math style
+  % #2: unused
+  \sbox0{$#1\vcenter{}$}% math axis
+  \sbox2{$#1\cdot\m@th$}%
+  \hbox to \bigcdot@widthfactor\wd2{%
+    \hfil
+    \raise\ht0\hbox{%
+      \scalebox{\bigcdot@scalefactor}{%
+        \lower\ht0\hbox{$#1\bullet\m@th$}%
+      }%
+    }%
+    \hfil
+  }%
+}
+\makeatother
+
+% \title{Tarea 1}
+% \author{Jesus Eduardo Loera Casas 1898887,\\ Cesar Efrén Valladares Rocha 1841555,\\ Vrani Chavez Islas 1990044}
+% \date{\today}
+
+\begin{document}
+
+<<<<<<< HEAD
+\input{portada.tex}
+=======
+\input{problema_1.tex}
+
+\maketitle      			% Hoja con el titulo, autor y fecha
+>>>>>>> 0132e06276dc817d2994f808c56502fe233e634e
+
+\tableofcontents			% Índice
+
+\begin{center}
+	\rule[0mm]{150mm}{0.1mm}		% Para dibujar una linea horizontal de
+									% [elevación]{longitud}{grosor}
+	\end{center}
+	
+	
+\begin{abstract}		% ABSTRACT
+
+	\noindent 				% Anula la sangria de este parrafo
+	En ésta tarea demostraremos algunas de las propiedades de los vectores en 
+	$\mathbb{R}^{n}$
+	\end{abstract}
+	
+\begin{center}
+	\rule[0mm]{150mm}{0.1mm}
+	\end{center}
+
+\section{Introduction}		% Introduce el primer tema, pero el asterisco le 
+                            % quita la enumeración
+                            
+    Este es un resumen con los apuntes más importantes de la tercera sesión del curso de mecánica teórica
+
+\section{Problema}
+
+\section{Solución}
+
+
+
+
+	
+\end{document}
