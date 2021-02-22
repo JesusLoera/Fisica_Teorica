@@ -288,11 +288,14 @@ INPUT .\eje_x.tex
 INPUT eje_x.tex
 INPUT .\eje_x.tex
 INPUT eje_x.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\eje_y.tex
 INPUT eje_y.tex
 INPUT .\eje_y.tex
 INPUT eje_y.tex
 INPUT c:\Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Tarea_01\build_2\main.aux
+INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
