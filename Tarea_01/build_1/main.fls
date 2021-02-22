@@ -47,6 +47,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex\latex\vmargin\vmargin.sty
 INPUT C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex\latex\vmargin\vmargin.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux
 OUTPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux
@@ -154,3 +156,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
