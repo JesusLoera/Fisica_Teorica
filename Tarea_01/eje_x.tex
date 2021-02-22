@@ -8,34 +8,34 @@ Empezaremos con la ecuación diferencial: $ m\ddot{x} = -km\dot{x} $
 
 Por comodidad usaremos momentaneamente la siguiente notación: 
 
-\begin{gather*}
-    \dot{x} = V_{x} \\
-    \ddot{x} = \frac{dV_{x}}{dt}
-\end{gather*}
+\begin{align*}
+    \dot{x} &= V_{x} \\
+    \ddot{x} &= \frac{dV_{x}}{dt}
+\end{align*}
 
 Empezamos realizando una sustitución y simplificamos
 
-\begin{gather*}
-    m\frac{d V_{x}}{dt} = -km\dot{x} \\
-    \frac{d V_{x}}{dt} = -k\dot{x} \\
-    \frac{ d V_{x}}{V_{x}} = -kdt 
-\end{gather*}
+\begin{align*}
+    m\frac{d V_{x}}{dt} &= -km\dot{x} \\
+    \frac{d V_{x}}{dt} &= -k\dot{x} \\
+    \frac{ d V_{x}}{V_{x}} &= -kdt 
+\end{align*}
 
 Integramos  ambos lados de la ecuación diferencial
 
-\begin{gather*}
-    \int \frac{ d V_{x}}{V_{x}} = \int -kdt \\
-    ln(V_{x}) = -kt+C_{1}
-\end{gather*}
+\begin{align*}
+    \int \frac{ d V_{x}}{V_{x}} &= \int -kdt \\
+    ln(V_{x}) &= -kt+C_{1}
+\end{align*}
 
 Simplificando la expresión
 
-\begin{gather*}
-    e^{ln(V_{x})} = e^{-kt+C_{1}} \\
-    V_{x} = e^{-kt} e^{C_{1}} \\
-    V_{x} = C_{1}^{*}e^{-kt}  \\
-    V_{x} (t) = C_{1}^{*}e^{-kt}
-\end{gather*}
+\begin{align*}
+    e^{ln(V_{x})} &= e^{-kt+C_{1}} \\
+    V_{x} &= e^{-kt} e^{C_{1}} \\
+    V_{x} &= C_{1}^{*}e^{-kt}  \\
+    V_{x} (t) &= C_{1}^{*}e^{-kt}
+\end{align*}
 
 Evaluamos la condición inicial:
 
@@ -43,13 +43,46 @@ Evaluamos la condición inicial:
     \item $\dot{x} (0) = V_{x} (0) = V_{0}cos \theta$
 \end{itemize}
 
-\begin{gather*}
-    V_{0}cos \theta =  C_{1}^{*}e^{-k(0)} \\
-    \Longrightarrow C_{1}^{*} = V_{0}cos \theta
-\end{gather*}
+\begin{align*}
+    V_{0}cos \theta &=  C_{1}^{*}e^{-k(0)} \\
+    \rightarrow C_{1}^{*} &= V_{0}cos \theta
+\end{align*}
 
 Sustituyendo $C_{1}^{*} = V_{0}cos \theta$ en $V_{x} (t)$
 
-\begin{equation*}
-    \therefore  V_{x} (t) = V_{0}cos \theta e^{-kt}
-\end{equation*}
+\begin{align*}
+    V_{x} (t) &= V_{0}cos \theta e^{-kt} \\
+    \therefore  \dot{x} (t) &= V_{0}cos \theta e^{-kt}
+\end{align*}
+
+Como $\dot{x}=V_{x}=\frac{dx}{dt}$, entonces
+
+\begin{align*}
+    \frac{dx}{dt} &= V_{0}cos \theta e^{-kt} \\
+    dx &= V_{0}cos \theta e^{-kt} dt 
+\end{align*}
+
+Integrando de ambos lados de la ecuación:
+
+\begin{align*}
+    \int dx &= \int V_{0}cos \theta e^{-kt} dt \\
+    x(t) &= V_{0} cos \theta \left( \frac{e^{-kt}}{-k} \right) + C_{2}
+\end{align*}
+
+Evaluamos la condición inicial:
+
+\begin{itemize}
+    \item $x (0) = 0 $
+\end{itemize}
+
+\begin{align*}
+    0 &= V_{0} cos \theta \left( \frac{e^{-k(0)}}{-k} \right) + C_{2} \\
+    \rightarrow C_{2} &= \frac{V_{0} cos \theta}{k}
+\end{align*}
+
+Sustituyendo $ C_{2} = \frac{V_{0} cos \theta}{k} $ en $x(t)$
+
+\begin{align*}
+    x(t) &= V_{0} cos \theta \left( \frac{e^{-kt}}{-k} \right) + \frac{V_{0} cos \theta}{k} \\
+    \therefore x(t) &= \frac{V_{0} cos \theta}{k} \left( 1-e^{-kt} \right)
+\end{align*}
