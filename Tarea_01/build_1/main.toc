@@ -1,2 +1,4 @@
+\babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Problema}{1}%
 \contentsline {section}{\numberline {2}Solución}{1}%
+\contentsline {section}{\numberline {3}Ecuaciones de movimiento}{4}%

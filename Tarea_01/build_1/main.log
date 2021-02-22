@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  21 FEB 2021 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2021.2.21)  21 FEB 2021 20:44
 entering extended mode
 **"c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Tarea_01/main.tex"
 ("c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Tarea_01/main.tex"
@@ -144,36 +144,64 @@ Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperHeight=\dimen115
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/11/14 3.36 The Babel package
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
 )
-LaTeX Info: Redefining \bigcdot on input line 27.
- ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux")
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\Jesus Loera\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/11/14 3.36 Babel common definitions
+\babel@savecnt=\count118
+\U@D=\dimen116
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count119
+)
+\es@quottoks=\toks22
+\es@quotdepth=\count120
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+LaTeX Info: Redefining \bigcdot on input line 29.
+ ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux"
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
  ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen116
+\scratchcounter=\count121
+\scratchdimen=\dimen117
 \scratchbox=\box29
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen117
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks23
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen118
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
@@ -204,7 +232,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 44
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
-) (portada.tex
+)
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ (portada.tex
 <FCFM.png, id=1, 120.45pt x 120.45pt>
 File: FCFM.png Graphic file (type png)
 <use FCFM.png>
@@ -212,37 +243,36 @@ Package pdftex.def Info: FCFM.png  used on input line 3.
 (pdftex.def)             Requested size: 93.89265pt x 93.89546pt.
  [1
 
-{C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./FCFM.png>]) ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.toc")
+{C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./FCFM.png>]) ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.toc"
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (eje_x.tex [1]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 43.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
- [2]) (eje_y.tex [3]) [4] ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux") ) 
+) (eje_x.tex [1] [2]) (eje_y.tex [3]) [4] ("c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux"
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+) ) 
 Here is how much of TeX's memory you used:
- 3224 strings out of 492484
- 42827 string characters out of 3130251
- 111936 words of memory out of 3000000
- 7496 multiletter control sequences out of 15000+200000
+ 4179 strings out of 492484
+ 55850 string characters out of 3130251
+ 136000 words of memory out of 3000000
+ 8435 multiletter control sequences out of 15000+200000
  14138 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,32p,420b,152s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,10n,35p,420b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.pdf" (5 pages, 413392 bytes).
+Output written on "c:/Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.pdf" (5 pages, 415720 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
+ 315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
