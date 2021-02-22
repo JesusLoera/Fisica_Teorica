@@ -41,3 +41,29 @@ Sustituyendo $C_{1} = kV_{0}\sin\theta+g$ en la ecuación original:
 \begin{equation*}
     \therefore V_{y}(t) = \left (\frac{kV_{0}\sin\theta+g}{k} \right)e^{-kt} - \frac{g}{k}
 \end{equation*}
+
+\vspace{5 mm}
+Ahora, como $V_{y} = \frac{dy}{dt}$:
+\begin{align*}
+    \frac{dy}{dt} &= \left (\frac{kV_{0}\sin\theta+g}{k} \right)e^{-kt} - \frac{g}{k}\\
+    \int dy &= \frac{kV_{0}\sin\theta+g}{k} \int e^{-kt}dt - \frac{g}{k} \int dt\\
+    y &= -\left (\frac{kV_{0}\sin\theta+g}{k^2} \right)e^{-kt} - \frac{g}{k}t + C_{2}
+\end{align*}
+
+\vspace{5 mm}
+Evaluando la condición inicial $y(t=0) = 0$:
+\begin{align*}
+    0 &= -\left (\frac{kV_{0}\sin\theta+g}{k^2} \right)e^{-k(0)} - \frac{g}{k}(0) + C_{2}\\
+    \Rightarrow C_{2} &= \frac{kV_{0}\sin\theta+g}{k^2}
+\end{align*}
+
+\vspace{5 mm}
+Sustituyendo $C_{2} = \frac{kV_{0}\sin\theta+g}{k^2}$ en la ecuación original:
+\begin{equation*}
+    \Rightarrow y(t) = -\left (\frac{kV_{0}\sin\theta+g}{k^2} \right)e^{-kt} - \frac{g}{k}t + \frac{kV_{0}\sin\theta+g}{k^2}
+\end{equation*}
+
+\vspace{5 mm}
+\begin{equation*}
+    \therefore y(t) = \frac{kV_{0}\sin\theta+g}{k^2} (1-e^{-kt}) - \frac{g}{k}t
+\end{equation*}
