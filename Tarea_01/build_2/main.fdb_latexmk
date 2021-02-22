@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1613960410 "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/main.tex" "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.pdf" "main" 1613960419
+["pdflatex"] 1613960804 "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/main.tex" "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.pdf" "main" 1613960814
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx0900.tfm" 993058354 3200 f959f56c26f697d341ba38dba18fe1f8 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993058356 3200 328792ff19833a39406f06fa0555a6dc ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993058360 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
@@ -71,18 +71,18 @@
   "C:/Users/cesar/AppData/Roaming/MiKTeX/2.9/tex/latex/latex-tools/xspace.sty" 1602844018 4698 3e6071704acf4f66392376b7b66ae02c ""
   "C:/Users/cesar/AppData/Roaming/MiKTeX/2.9/tex/latex/vmargin/vmargin.sty" 1090544724 7055 5eae49c3f07fead60d92def0a4f5c30f ""
   "FCFM.png" 1613952015 559959 410a465df00c29b197398654c5334e0b ""
-  "build_2/main.aux" 1613960418 337 df90ac4bb3571696bc2c2d05c9e3a731 "pdflatex"
-  "build_2/main.toc" 1613960418 182 b36c34fe4f7ec54ec3137de6bb9ec993 "pdflatex"
-  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.aux" 1613960418 337 df90ac4bb3571696bc2c2d05c9e3a731 ""
+  "build_2/main.aux" 1613960813 337 df90ac4bb3571696bc2c2d05c9e3a731 "pdflatex"
+  "build_2/main.toc" 1613960813 182 b36c34fe4f7ec54ec3137de6bb9ec993 "pdflatex"
+  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.aux" 1613960813 337 df90ac4bb3571696bc2c2d05c9e3a731 ""
   "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/main.tex" 1613960406 3351 1b2b8ef938a62f1d2ea8a7ca2332d0cb ""
-  "eje_x.tex" 1613959636 2247 9249e4b885f32cf484baa2a418fa2fa3 ""
-  "eje_y.tex" 1613960346 2469 ff32818c128c65199d34adc960313e0d ""
+  "eje_x.tex" 1613960638 2256 6ebde56fee441bbc644fc193660c496e ""
+  "eje_y.tex" 1613960802 2463 da2c97b3c229ccacf436f7695639b76c ""
   "main.tex" 1613960406 3351 1b2b8ef938a62f1d2ea8a7ca2332d0cb ""
   "portada.tex" 1613952015 666 67056e1a7944a7b41a5951c46e445f0d ""
   (generated)
-  "build_2/main.toc"
   "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.pdf"
+  "build_2/main.pdf"
+  "build_2/main.toc"
+  "build_2/main.log"
   "build_2/main.aux"
   "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Tarea_01/build_2/main.log"
-  "build_2/main.pdf"
-  "build_2/main.log"
