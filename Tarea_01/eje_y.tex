@@ -1,0 +1,23 @@
+Para el desplazamiento vertical se procede de la siguiente forma:
+
+Como $\ddot{y}=\frac{dV_{y}}{dt}$ y $\dot{V_{y}}$:
+
+\begin{gather*}
+    m\frac{dV_{y}}{dt} = -kmV_{y}-mg\\
+    -\frac{dV_{y}}{dt} = kV_{y}+g\\
+    \int \frac{dV_{y}}{kV_{y}+g} = -\int dt
+\end{gather*}
+
+Resolviendo la integral de la izquierda:
+Sea $u=kV_{y}+g$, $du=kdV_{y}$
+\begin{equation*}
+    \Rightarrow \frac{1}{k} \int \frac{du}{u} = \frac{1}{k} \ln(\lvert u \rvert) = \frac{1}{k} \ln(\lvert kV_{y}+g \rvert)
+\end{equation*}
+
+Asumiendo $kV_{y}+g \geq 0$:
+\begin{gather*}
+    \Rightarrow \frac{1}{k} \ln(kV_{y}+g) = -t+C_{1}\\
+    \frac{1}{k} \ln(kV_{y}+g) = -kt+C_{1} \hspace{3cm} (C_{1}=kC_{1})\\
+    kV_{y}+g = e^{-kt}e^{C_{1}}\\
+    kV_{y}+g = C_{1}e^{-kt} \hspace{3cm} (C_{1}=e^{C_{1}})
+\end{gather*}
