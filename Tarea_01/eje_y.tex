@@ -9,8 +9,7 @@ Como $\ddot{y}=\frac{dV_{y}}{dt}$ y $\dot{y}=V_{y}$:
 \end{align*}
 
 \vspace{5 mm}
-Resolviendo la integral de la izquierda:
-Sea $u=kV_{y}+g$, $du=kdV_{y}$
+Se resuelve la integral de la izquierda. Sea $u=kV_{y}+g$, $du=kdV_{y}$:
 \begin{equation*}
     \Rightarrow \frac{1}{k} \int \frac{du}{u} = \frac{1}{k} \ln(\lvert u \rvert) = \frac{1}{k} \ln(\lvert kV_{y}+g \rvert)
 \end{equation*}
@@ -31,9 +30,14 @@ Aplicando la condición incial $V_{y}(t=0)=V_{0}\sin\theta$:
     \Rightarrow C_{1} &= kV_{0}\sin\theta+g
 \end{align*}
 
+\vspace{5 mm}
+Sustituyendo $C_{1} = kV_{0}\sin\theta+g$ en la ecuación original:
 \begin{align*}
     \Rightarrow kV_{y}+g &= (kV_{0}\sin\theta+g)e^{-kt}\\
     V_{y} &= \frac{(kV_{0}\sin\theta+g)e^{-kt}-g}{k}\\
     V_{y} &= (V_{0}\sin\theta)e^{-kt} + \frac{g}{k}e^{-kt} - \frac{g}{k}\\
-    V_{y}(t) &= \left (\frac{kV_{0}\sin\theta+g}{k} \right)e^{-kt} - \frac{g}{k}
 \end{align*}
+
+\begin{equation*}
+    \therefore V_{y}(t) = \left (\frac{kV_{0}\sin\theta+g}{k} \right)e^{-kt} - \frac{g}{k}
+\end{equation*}
