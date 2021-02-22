@@ -111,6 +111,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT eje_x.tex
 INPUT eje_x.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
 INPUT eje_y.tex
 INPUT eje_y.tex
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_01\build_1\main.aux
@@ -134,13 +136,21 @@ INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb

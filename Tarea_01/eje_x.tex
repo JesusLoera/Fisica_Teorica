@@ -1,15 +1,55 @@
 Observamos un sistema desacoplado de dos ecuaciones diferenciales.
 
+\vspace*{5 mm}
 
-Para la ecuación diferencial: $ m\ddot{x} = -km\dot{x} $
+Empezaremos con la ecuación diferencial: $ m\ddot{x} = -km\dot{x} $
 
-Recordando $ \dot{V_{x}} = \frac{dx}{dt} $
+\vspace*{5 mm}
 
+Por comodidad usaremos momentaneamente la siguiente notación: 
 
 \begin{gather*}
-    m\frac{\dot{V_{x}}}{dt} = -km\dot{x} \\
-    \frac{\dot{V_{x}}}{dt} = -k\dot{x} \\
-    \frac{\dot{V_{x}}}{V_{x}} = -kdt
+    \dot{x} = V_{x} \\
+    \ddot{x} = \frac{dV_{x}}{dt}
 \end{gather*}
 
+Empezamos realizando una sustitución y simplificamos
 
+\begin{gather*}
+    m\frac{d V_{x}}{dt} = -km\dot{x} \\
+    \frac{d V_{x}}{dt} = -k\dot{x} \\
+    \frac{ d V_{x}}{V_{x}} = -kdt 
+\end{gather*}
+
+Integramos  ambos lados de la ecuación diferencial
+
+\begin{gather*}
+    \int \frac{ d V_{x}}{V_{x}} = \int -kdt \\
+    ln(V_{x}) = -kt+C_{1}
+\end{gather*}
+
+Simplificando la expresión
+
+\begin{gather*}
+    e^{ln(V_{x})} = e^{-kt+C_{1}} \\
+    V_{x} = e^{-kt} e^{C_{1}} \\
+    V_{x} = C_{1}^{*}e^{-kt}  \\
+    V_{x} (t) = C_{1}^{*}e^{-kt}
+\end{gather*}
+
+Evaluamos la condición inicial:
+
+\begin{itemize}
+    \item $\dot{x} (0) = V_{x} (0) = V_{0}cos \theta$
+\end{itemize}
+
+\begin{gather*}
+    V_{0}cos \theta =  C_{1}^{*}e^{-k(0)} \\
+    \Longrightarrow C_{1}^{*} = V_{0}cos \theta
+\end{gather*}
+
+Sustituyendo $C_{1}^{*} = V_{0}cos \theta$ en $V_{x} (t)$
+
+\begin{equation*}
+    V_{x} (t) = V_{0}cos \theta e^{-kt}
+\end{equation*}
