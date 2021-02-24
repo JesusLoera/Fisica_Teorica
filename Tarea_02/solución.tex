@@ -1,0 +1,42 @@
+
+
+ Solución.
+
+ \begin{align*}
+    \ddot{x} + \omega_{0}^{2} x &= 0 \\
+    \frac{d^{2} x}{dt^{2}} + \omega_{0}^{2} x &= 0 
+\end{align*}
+
+Observación: $\frac{d^{2} x}{dt^{2}} + \omega_{0}^{2} x = 0 $ es una ecuación diferencial lineal
+no homogénea de orden dos con coeficientes constantes.
+
+\vspace*{0.3 cm}
+
+Identificamos la ecuación característica: $ m^{2} + \omega_{0}^{2} = 0 $
+
+Ahora buscamos despejar para m:
+
+\begin{align*}
+    m^{2} + \omega_{0}^{2} &= 0 \\
+    m^{2}  &= - \omega_{0}^{2} \\
+    \Rightarrow m &= 0 \pm \omega_{0} i
+\end{align*}
+
+Observación: Hemos obtenido raíces complejas conjugadas.
+
+\vspace*{0.3 cm}
+
+Identificamos $ a=0 y b=\omega $, la solución general de la ecuación diferencial
+es de la forma:
+
+\begin{align*}
+    x_{g}(t) &= C_{1}e^{at}Cos(bt) + C_{2}e^{at}Sen(bt) \\
+\end{align*}
+
+Sustituyendo a y b:
+
+\begin{align*}
+    x_{g}(t) &= C_{1}e^{(0)t}Cos((\omega_{0})t) + C_{2}e^{(0)t}Sen((\omega_{0})t) \\
+    x_{g}(t) &= C_{1}(1)Cos(\omega_{0}t) + C_{2}(1)Sen(\omega_{0}t) \\
+    \Rightarrow x_{g}(t) &= C_{1}Cos(\omega_{0}t) + C_{2}Sen(\omega_{0}t)
+\end{align*}
