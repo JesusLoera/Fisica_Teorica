@@ -30,52 +30,14 @@ Identificamos $ a=0 y b=\omega $, la solución general de la ecuación diferenci
 es de la forma:
 
 \begin{align*}
-    x_{g}(t) &= C_{1}e^{at}Cos(bt) + C_{2}e^{at}Sen(bt) \\
+    x(t) &= C_{1}e^{at}Cos(bt) + C_{2}e^{at}Sen(bt) \\
 \end{align*}
 
 Sustituyendo a y b:
 
 \begin{align*}
-    x_{g}(t) &= C_{1}e^{(0)t}Cos((\omega_{0})t) + C_{2}e^{(0)t}Sen((\omega_{0})t) \\
-    x_{g}(t) &= C_{1}(1)Cos(\omega_{0}t) + C_{2}(1)Sen(\omega_{0}t) \\
-    \Rightarrow x_{g}(t) &= C_{1}Cos(\omega_{0}t) + C_{2}Sen(\omega_{0}t)
+    x(t) &= C_{1}e^{(0)t}Cos((\omega_{0})t) + C_{2}e^{(0)t}Sen((\omega_{0})t) \\
+    x(t) &= C_{1}(1)Cos(\omega_{0}t) + C_{2}(1)Sen(\omega_{0}t) \\
+    \Rightarrow x(t) &= C_{1}Cos(\omega_{0}t) + C_{2}Sen(\omega_{0}t)
 \end{align*}
 
-Se suponen las condiciones iniciales $x(t=0)=A$, $\dot{x}(t=0)=0$.\\
-Aplicando la condición $x(t=0)=A$:
-\begin{align*}
-    A &= C_{1}Cos(0)+C_{2}Sen(0)\\
-    \Rightarrow C_{1} &= A
-\end{align*}
-
-Sustituyendo $C_{1}=A$ en $x(t)$:
-\begin{align*}
-    x(t) &= ACos(\omega_{0}t)+C_{2}Sen(\omega_{0}t)\\
-    \Rightarrow \dot{x}(t) &= -A\omega_{0}Sen(\omega_{0}t) + C_{2}\omega_{0}Cos(\omega_{0}t)
-\end{align*}
-
-Aplicando la condición inicial $\dot{x}(t=0)=0$:
-\begin{align*}
-    0 &= -A\omega_{0}Sen(0) + C_{2}\omega_{0}Cos(0)\\
-    0 &= C_{2}\omega_{0}\\
-    \Rightarrow C_{2} &= 0
-\end{align*}
-
-Sustituyendo $C_{2}=0$ en $x(t)$:
-\begin{equation*}
-    x(t) = ACos(\omega_{0}t)
-\end{equation*}
-
-Se agrega una constante de desfase $\phi$ a la función $x(t)$ como desplazamiento dentro del ángulo del coseno. Esto con el fin de que la función sea compatible con cualquier sistema oscilatorio con un desfase inicial respecto al punto de equilibrio.
-\begin{equation*}
-    \therefore x(t) = ACos(\omega_{0}t-\phi)
-\end{equation*}
-
-Notemos que dadas las condiciones iniciales, en este caso particular $\phi=0$.\\
-Si se hace uso de la identidad $Sen(x+\frac{\pi}{2}) = Cos(x)$ se puede reescribir $x(t)$ como:
-\begin{align*}
-    x(t) &= ASen((\omega_{0}t-\phi)+\frac{\pi}{2})\\
-    x(t) &= ASen(\omega_{0}t-(\phi-\frac{\pi}{2}))\\
-    \therefore x(t) &= ASen (\omega_{0}t-\delta)
-\end{align*}
-donde $\delta=\phi - \frac{\pi}{2}$

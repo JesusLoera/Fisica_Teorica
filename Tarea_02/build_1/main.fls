@@ -108,13 +108,6 @@ INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1728.tfm
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_02\build_1\main.toc
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_02\build_1\main.toc
-OUTPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_02\build_1\main.toc
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1095.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1095.tfm
-INPUT abstract.tex
-INPUT abstract.tex
-INPUT oscilador.tex
-INPUT oscilador.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
@@ -136,17 +129,30 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+OUTPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_02\build_1\main.toc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT abstract.tex
+INPUT abstract.tex
+INPUT oscilador.tex
+INPUT oscilador.tex
 INPUT solución.tex
 INPUT solución.tex
+INPUT apartado.tex
+INPUT apartado.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT ecuaciones.tex
 INPUT ecuaciones.tex
 INPUT c:\Users\Jesus Loera\OneDrive - Universidad Autónoma de Nuevo León\FCFM\Cuarto\Mecánica Teórica\Fisica_Teorica\Tarea_02\build_1\main.aux
-INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\Jesus Loera\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
@@ -173,3 +179,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb

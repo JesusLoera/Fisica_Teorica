@@ -1,4 +1,7 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Problema del oscilador armónico}{1}%
 \contentsline {section}{\numberline {2}Solución}{1}%
-\contentsline {section}{\numberline {3}Ecuaciones de movimiento}{2}%
+\contentsline {section}{\numberline {3}Suplemento: Otras formas de expresar la solución general de la ED}{2}%
+\contentsline {subsection}{\numberline {3.1}Forma 1}{2}%
+\contentsline {subsection}{\numberline {3.2}Forma 2}{3}%
+\contentsline {section}{\numberline {4}Ecuaciones de movimiento}{4}%
