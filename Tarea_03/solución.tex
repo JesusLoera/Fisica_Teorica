@@ -1,0 +1,101 @@
+
+
+ Solución.
+
+ \begin{align*}
+    L\ddot{q} + \frac{1}{C} q &= 0 
+\end{align*}
+
+Observación: $L\ddot{q} + \frac{1}{C} q = 0 $ es una ecuación diferencial lineal
+homogénea de orden dos con coeficientes constantes.
+
+
+Observación: Tenemos condiciones iniciales en $t=0$ por tanto podemos
+usar la transformada de Laplace para resolver la ecuación diferencial.
+
+\vspace*{0.3 cm}
+
+Primeramente aplicamos la transformada de Laplace de ambos lados de la ecuación:
+
+\begin{align*}
+    \Laplace \left\{ L\ddot{q} + \frac{1}{C} q \right\} &= \Laplace \left\{ 0 \right\}
+\end{align*}
+
+Como $ \Laplace \left\{ 0 \right\} = 0 $
+
+\begin{align*}
+    \Laplace \left\{ L\ddot{q} \right\} + \Laplace \left\{\frac{1}{C} q \right\} &= 0 \\
+    L \Laplace \left\{ \ddot{q} \right\} + \frac{1}{C} \Laplace \left\{q  \right\} &= 0
+\end{align*}
+
+Sea $\Laplace \{ q(t) \} = Q(s)$ y recordando que $ q(0)= q_{o} $ y $I(0) = \dot{q} (0)=0$ 
+
+\begin{itemize}
+    \item En $L \Laplace \left\{ \ddot{q} \right\} $: 
+\end{itemize}
+
+\begin{align*}
+    L \Laplace \left\{ \ddot{q} \right\} &= L \left( s^{2}Q(s) -sq(0) - \dot{q}(0) \right) \\
+                                         &= L \left( s^{2}Q(s) -sq_{o} - 0 \right) \\
+                                         &= L s^{2}Q(s) -Lsq_{o}
+\end{align*}
+
+\begin{itemize}
+    \item En $\frac{1}{C} \Laplace \left\{ q \right\} $: 
+\end{itemize}
+
+\begin{align*}
+    \frac{1}{C} \Laplace \left\{ q \right\} &= \frac{1}{C} Q(s)
+\end{align*}
+
+Sustituyemos las anteriores igualdades en la ecuación diferencial:
+
+\begin{align*}
+    L s^{2}Q(s) -Lsq_{o} + \frac{1}{C} Q(s) = 0 
+\end{align*}
+
+Ahora despejamos para $Q(s)$ :
+
+\begin{align*}
+    L s^{2}Q(s) -Lq_{o}s + \frac{1}{C} Q(s) = 0 \\
+    L s^{2}Q(s) + \frac{1}{C} Q(s) = Lq_{o}s 
+\end{align*}
+
+\begin{align*}
+    Q(s) \left( L s^{2} + \frac{1}{C} \right) = Lq_{o}s \\
+    Q(s) \left( \frac{CL s^{2}+1}{C} \right) = Lq_{o}s \\
+    Q(s)  = \frac{CLq_{o}s}{CL s^{2}+1} \\
+    Q(s)  = \frac{CLq_{o}s}{ CL \left( s^{2} + \frac{1}{CL} \right) } \\
+    Q(s)  = \frac{q_{o}s}{  s^{2} + \frac{1}{CL}  }
+\end{align*}
+
+Ahora aplicamos la transformada inversa de Laplace en ambos lados de la ecuación:
+
+%   \Laplace^{-1} \{  \}
+
+\begin{align*}
+    \Laplace^{-1} \{ Q(s) \} &= \Laplace^{-1} \left\{\frac{q_{o}s}{  s^{2} + \frac{1}{CL}  }\right\} \\
+                            &= q_{o} \Laplace^{1} \left\{\frac{s}{ s^{2} + \frac{1}{CL} }\right\} 
+\end{align*}
+
+Como  $ \Laplace^{-1} \left\{\frac{s}{s^{2}+k^{2}}\right\} = Cos(kt) $
+
+\begin{equation*}
+    \Rightarrow \Laplace \left\{ \frac{s}{ s^{2} + \frac{1}{CL}  } \right\} = Cos \left( \sqrt{ \frac{1}{CL} } t \right)
+\end{equation*}
+
+Tambien sabemos que $ \Laplace^{-1} \left\{Q(s)\right\} = q(t) $
+
+
+Hacemos las sustituciones de las transformadas inversas de Laplace:
+
+\begin{equation*}
+    \therefore q(t) = q_{o} Cos \left( \sqrt{ \frac{1}{CL} } t \right)
+\end{equation*}
+
+Ahora para determinar $\dot{q} (t)$ derivamos a $q(t)$ :
+
+\begin{align*}
+    q(t) &= q_{o} Cos \left( \sqrt{ \frac{1}{CL} } t \right) \\
+    \therefore \dot{q}(t) &= - \sqrt{ \frac{1}{CL} } q_{o} Sen \left(  \sqrt{ \frac{1}{CL} } t \right)
+\end{align*}

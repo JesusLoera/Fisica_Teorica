@@ -1,52 +1,41 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage{blindtext}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
-\usepackage{amsfonts}
+\usepackage{amsfonts} 
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{vmargin}
+\usepackage{amssymb}
+\usepackage[spanish]{babel}
 
-\setmargins{2.5cm}       % margen izquierdo
-{1.5cm}                        % margen superior
-{16.5cm}                      % anchura del texto
-{23.42cm}                    % altura del texto
-{10pt}                           % altura de los encabezados
-{1cm}                           % espacio entre el texto y los encabezados
-{0pt}                             % altura del pie de página
-{2cm}                           % espacio entre el texto y el pie de página
+\usepackage{circuitikz}        %  Dibujar circuitos
+
+\usepackage{mathrsfs,scalerel}  % Laplace
+\newsavebox\foobox
+\newlength{\foodim}
+\newcommand{\slantbox}[2][0]{\mbox{%
+        \sbox{\foobox}{#2}%
+        \foodim=#1\wd\foobox
+        \hskip \wd\foobox
+        \hskip -0.5\foodim
+        \pdfsave
+        \pdfsetmatrix{1 0 #1 1}%
+        \llap{\usebox{\foobox}}%
+        \pdfrestore
+        \hskip 0.5\foodim
+}}
+\def\Laplace{\ThisStyle{\slantbox[-.45]{$\SavedStyle\mathscr{L}$}}}
 
 
 \renewcommand{\abstractname}{Descripción}   % Cambiamos el nombre del abstract
+\renewcommand{\contentsname}{Contenidos}   % Cambiamos el nombre de contents
 
-\makeatletter
-\newcommand*{\bigcdot}{}% Check if undefined
-\DeclareRobustCommand*{\bigcdot}{%
-  \mathbin{\mathpalette\bigcdot@{}}%
-}
-\newcommand*{\bigcdot@scalefactor}{.5}
-\newcommand*{\bigcdot@widthfactor}{1.15}
-\newcommand*{\bigcdot@}[2]{%
-  % #1: math style
-  % #2: unused
-  \sbox0{$#1\vcenter{}$}% math axis
-  \sbox2{$#1\cdot\m@th$}%
-  \hbox to \bigcdot@widthfactor\wd2{%
-    \hfil
-    \raise\ht0\hbox{%
-      \scalebox{\bigcdot@scalefactor}{%
-        \lower\ht0\hbox{$#1\bullet\m@th$}%
-      }%
-    }%
-    \hfil
-  }%
-}
-\makeatother
+\input{preambulo.tex}
 
-\title{Tarea 1}
-\author{Jesus Eduardo Loera Casas 1898887,\\ Cesar Efrén Valladares Rocha 1841555,\\ Vrani Chavez Islas 1990044}
-\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -61,43 +50,20 @@
 	
 	
 \begin{abstract}		% ABSTRACT
-
-	\noindent 				% Anula la sangria de este parrafo
-	En este documento nuestro equipo presenta la tarea 1 del curso de mecánica teórica, donde planteamos 
-  el problema de una particula moviendose en un medio resistente y encontramos sus ecuaciones de 
-  movimiento.
-	\end{abstract}
+  \input{abstract.tex}
+\end{abstract}
 	
 \begin{center}
 	\rule[0mm]{150mm}{0.1mm}
 	\end{center}
 
-\section{Introduction}		% Introduce el primer tema, pero el asterisco le 
-                            % quita la enumeración
+\section{Problema del oscilador armónico}	
+    \input{oscilador.tex}        
                             
-  Encontrar las ecuaciones de para la velocidad respecto al tiempo y el movimiento respecto
-  al tiempo de una partícula que se mueve en un medio resistente en una trayectoria parabólica 
-  con las siguientes condiciones iniciales:
-
-  \begin{gather*}
-    x(t=0)=0=y(t=0) \\
-    \dot{x} (t=0) = V_{0} Cos\theta \\
-    \dot{y} (t=0) = V_{0} Sen\theta 
-  \end{gather*}
-
-  Las ecuaciones de movimiento que describen la trayectoria del sistema son:
-
-  \begin{gather*}
-    m\ddot{x} = -km\dot{x} \\
-    m\ddot{y} = -km\dot{y}-mg
-  \end{gather*}
-
-\section{Problema}
-
 \section{Solución}
+    \input{solución.tex}
 
- %\input{eje_x.tex}
-
- %\input{eje_y.tex}
+\section{Ecuaciones de movimiento}
+    \input{ecuaciones.tex}
 
 \end{document}

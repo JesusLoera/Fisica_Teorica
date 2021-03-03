@@ -1,0 +1,19 @@
+
+Encontrar las ecuaciones de movimiento y velocidad respecto al tiempo 
+del siguiente oscilador armónico:
+
+\vspace*{0.3 cm}
+
+\begin{center}
+    \begin{circuitikz}[american voltages]
+        \draw (0,0) to [C=$C$] (4,0) -- (4,2) to [L, l=$L$] (0,2) -- (0,0);
+    \end{circuitikz}
+\end{center}
+
+Por la ley de Kirchhoff:
+
+\begin{align*}
+    L \frac{dI}{dt} + \frac{1}{C} \int Idt = 0
+\end{align*}
+
+Donde $ I(t)=\dot{q} $
