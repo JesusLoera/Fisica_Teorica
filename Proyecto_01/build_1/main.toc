@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Problema 1}{1}%
+\contentsline {section}{\numberline {2}Problema 2}{1}%
+\contentsline {section}{\numberline {3}Problema 3}{3}%
+\contentsline {section}{\numberline {4}Problema 4}{3}%

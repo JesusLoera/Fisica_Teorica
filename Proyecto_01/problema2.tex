@@ -1,0 +1,105 @@
+
+\renewcommand{\theenumi}{\alph{enumi}} %Letras minúsculas
+
+\begin{enumerate}
+    \item $ (AB)^{T} = B^{T} A^{T}  $
+\end{enumerate}
+
+Consideremos dos matrices cuadradas nxn, A y B:
+
+\begin{equation*}
+    A= \begin{bmatrix}
+            a_{11} & a_{12} & \cdots & a_{1n} \\
+            a_{21} & a_{22} & \cdots & a_{2n} \\
+            \vdots  & \vdots  & \ddots  & \vdots  \\
+            a_{n1} & a_{n2} & \cdots & a_{nn}
+       \end{bmatrix}
+    B= \begin{bmatrix}
+        b_{11} & b_{12} & \cdots & b_{1n} \\
+        b_{21} & b_{22} & \cdots & b_{2n} \\
+        \vdots  & \vdots  & \ddots  & \vdots  \\
+        b_{n1} & b_{n2} & \cdots & b_{nn}
+   \end{bmatrix}
+  \end{equation*}
+
+Utilizemos la siguiente notación:
+
+\begin{gather*}
+    A= (a_{ij})_{nxn} \\
+    B=(b_{ij})_{nxn}
+\end{gather*}
+
+Primero realicemos la multiplicacion de matrices $ \left( AB \right) $:
+
+\begin{align*}
+    AB   &= (a_{ij})_{nxn} (b_{ij})_{nxn} \\
+                        &= \left( c_{ij} \right)_{nxn} \\
+\end{align*}
+
+La matriz resultante de dicho producto es la matriz $ \left( c_{ij} \right)_{nxn} $, donde
+el término $c_{ij}$ viene dado por la siguiente expresión:
+
+\begin{align*}
+    c_{ij}    &= \Sigma_{k=1}^{n} a_{ik} b_{kj}
+\end{align*}
+
+
+Ahora, vamos a buscar la transpuesta de la matriz AB:
+
+\vspace*{0.3cm}
+
+Si $(AB)^{T} = \left( c_{ij}^{T} \right)_{nxn} $
+
+\vspace*{0.3cm}
+
+Por defición de matriz transpuesta, el término ij-ésimo $ c_{ij}^{T} $, 
+de la matriz $(AB)^{T}$ es aquel tal que:
+
+\begin{equation*}
+    c_{ij}^{T} = c_{ji} 
+\end{equation*}
+
+Por lo tanto, tenemos que
+
+\begin{align*}
+    c_{ij}^{T}  &= c_{ji} \\
+                &= \Sigma_{k=1}^{n} a_{jk} b_{ki} \\
+                &= \Sigma_{k=1}^{n} b_{ki} a_{jk} 
+\end{align*}
+
+Prestemos atención en los siguientes $b_{ki}$ y $a_{jk}$.
+
+
+El elemento $b_{ki}$, es el mismo que el elemento
+tal que $b_{ki}=b_{ik}^{T}$. 
+
+
+El elemento $a_{jk}$, es el mismo que el elemento
+tal que $a_{jk}=a_{kj}^{T}$. 
+
+
+Por tanto, podemos hacer la siguiente sustitución:
+
+\begin{align*}
+    c_{ij}^{T} &= \Sigma_{k=1}^{n} b_{ki} a_{jk} \\
+               &= \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T} 
+\end{align*}
+
+Por defición de multiplicacion de matrices el elemento 
+$ c_{ij}^{T} = \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T} $ es el ij-ésimo de la multiplicación de 
+matrices $ \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T} $.
+
+\vspace*{0.35cm}
+
+Anteriormente tambíen se mostró que $ c_{ij}^{T}  $ es el ij-ésimo de la multiplicación de 
+la matriz $(AB)^{T}$.
+
+\vspace*{0.35cm}
+
+$ \therefore $ $(AB)^{T}$ y  $ \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T} $
+son matrices iguales término a término
+
+\begin{equation*}
+    \Rightarrow  (AB)^{T} = \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T}
+\end{equation*}
+
