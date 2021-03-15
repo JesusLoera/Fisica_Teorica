@@ -5,19 +5,25 @@ Los ejes coordenados son perpendiculares entre sí.\\
 \textbf{Rotación de $\theta = 120^\circ$ alrededor del eje $x_{2}$.}\\
 Utilizando cosenos directores para representar la matriz de transformación:
 
-\begin{equation*}
-    \lambda_{11} = \cos(x'_{1},x_{1}) = \cos(\theta) \\
-    \lambda_{12} = \cos(x'_{1},x_{2}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
-    \lambda_{13} = \cos(x'_{1},x_{3}) = \cos\left(\frac{\pi}{2}+\theta\right) = -\sin(\theta) \\
-    \lambda_{21} = \cos(x'_{2},x_{1}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
-    \lambda_{22} = \cos(x'_{2},x_{2}) = \cos(0) = 1 \\
-    \lambda_{23} = \cos(x'_{2},x_{3}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
-    \lambda_{31} = \cos(x'_{3},x_{1}) = \cos\left(\frac{\pi}{2}-\theta\right) = \sin(\theta) \\
-    \lambda_{32} = \cos(x'_{3},x_{2}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
-    \lambda_{33} = \cos(x'_{3},x_{3}) = \cos(\theta) 
-\end{equation*}
+\begin{figure*}[h]
+    \centering
+    \includegraphics[scale=0.15]{eje_coordenado.jpeg}
+\end{figure*}
+
+\begin{align*}
+    \lambda_{11} &= \cos(x'_{1},x_{1}) = \cos(\theta) \\
+    \lambda_{12} &= \cos(x'_{1},x_{2}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
+    \lambda_{13} &= \cos(x'_{1},x_{3}) = \cos\left(\frac{\pi}{2}+\theta\right) = -\sin(\theta) \\
+    \lambda_{21} &= \cos(x'_{2},x_{1}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
+    \lambda_{22} &= \cos(x'_{2},x_{2}) = \cos(0) = 1 \\
+    \lambda_{23} &= \cos(x'_{2},x_{3}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
+    \lambda_{31} &= \cos(x'_{3},x_{1}) = \cos\left(\frac{\pi}{2}-\theta\right) = \sin(\theta) \\
+    \lambda_{32} &= \cos(x'_{3},x_{2}) = \cos\left(\frac{\pi}{2}\right) = 0 \\
+    \lambda_{33} &= \cos(x'_{3},x_{3}) = \cos(\theta) 
+\end{align*}
 
 Entonces la matriz de transformación queda:
+\vspace{5 mm}
 \begin{equation*}
     \lambda = \begin{bmatrix}
         \cos(\theta) & 0 & -\sin(\theta) \\
@@ -31,6 +37,7 @@ Entonces la matriz de transformación queda:
     \end{bmatrix}
 \end{equation*}
 
+\vspace{5 mm}
 \begin{equation*}
     \therefore \lambda = \begin{bmatrix}
         -\frac{1}{2} & 0 & -\frac{\sqrt{3}}{2} \\
