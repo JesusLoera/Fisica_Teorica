@@ -1,26 +1,30 @@
 
 \renewcommand{\theenumi}{\alph{enumi}} %Letras minúsculas
 
-\begin{enumerate}
-    \item $ (AB)^{T} = B^{T} A^{T}  $
-\end{enumerate}
+% problema a)
+
+\textbf{ a. $ (AB)^{T} = B^{T} A^{T}  $}
+
+\vspace*{0.5 cm}
 
 Consideremos dos matrices cuadradas nxn, A y B:
 
 \begin{equation*}
     A= \begin{bmatrix}
-            a_{11} & a_{12} & \cdots & a_{1n} \\
-            a_{21} & a_{22} & \cdots & a_{2n} \\
-            \vdots  & \vdots  & \ddots  & \vdots  \\
-            a_{n1} & a_{n2} & \cdots & a_{nn}
-       \end{bmatrix}
+        a_{11} & a_{12} & \cdots & a_{1n} \\
+        a_{21} & a_{22} & \cdots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{n1} & a_{n2} & \cdots & a_{nn}
+    \end{bmatrix}
     B= \begin{bmatrix}
         b_{11} & b_{12} & \cdots & b_{1n} \\
         b_{21} & b_{22} & \cdots & b_{2n} \\
-        \vdots  & \vdots  & \ddots  & \vdots  \\
+        \vdots & \vdots & \ddots & \vdots \\
         b_{n1} & b_{n2} & \cdots & b_{nn}
-   \end{bmatrix}
-  \end{equation*}
+    \end{bmatrix}
+\end{equation*}
+
+\vspace*{0.15cm}
 
 Utilizemos la siguiente notación:
 
@@ -32,15 +36,15 @@ Utilizemos la siguiente notación:
 Primero realicemos la multiplicacion de matrices $ \left( AB \right) $:
 
 \begin{align*}
-    AB   &= (a_{ij})_{nxn} (b_{ij})_{nxn} \\
-                        &= \left( c_{ij} \right)_{nxn} \\
+    AB & = (a_{ij})_{nxn} (b_{ij})_{nxn} \\
+       & = \left( c_{ij} \right)_{nxn}   \\
 \end{align*}
 
 La matriz resultante de dicho producto es la matriz $ \left( c_{ij} \right)_{nxn} $, donde
 el término $c_{ij}$ viene dado por la siguiente expresión:
 
 \begin{align*}
-    c_{ij}    &= \Sigma_{k=1}^{n} a_{ik} b_{kj}
+    c_{ij} & = \Sigma_{k=1}^{n} a_{ik} b_{kj}
 \end{align*}
 
 
@@ -52,49 +56,56 @@ Si $(AB)^{T} = \left( c_{ij}^{T} \right)_{nxn} $
 
 \vspace*{0.3cm}
 
-Por defición de matriz transpuesta, el término ij-ésimo $ c_{ij}^{T} $, 
+Por defición de matriz transpuesta, el término ij-ésimo $ c_{ij}^{T} $,
 de la matriz $(AB)^{T}$ es aquel tal que:
 
 \begin{equation*}
-    c_{ij}^{T} = c_{ji} 
+    c_{ij}^{T} = c_{ji}
 \end{equation*}
 
 Por lo tanto, tenemos que
 
 \begin{align*}
-    c_{ij}^{T}  &= c_{ji} \\
-                &= \Sigma_{k=1}^{n} a_{jk} b_{ki} \\
-                &= \Sigma_{k=1}^{n} b_{ki} a_{jk} 
+    c_{ij}^{T} & = c_{ji}                         \\
+               & = \Sigma_{k=1}^{n} a_{jk} b_{ki} \\
+               & = \Sigma_{k=1}^{n} b_{ki} a_{jk}
 \end{align*}
+
+\vspace*{0.3cm}
 
 Prestemos atención en los siguientes $b_{ki}$ y $a_{jk}$.
 
+\vspace*{0.15cm}
 
 El elemento $b_{ki}$, es el mismo que el elemento
-tal que $b_{ki}=b_{ik}^{T}$. 
+tal que $b_{ki}=b_{ik}^{T}$.
 
+\vspace*{0.15cm}
 
 El elemento $a_{jk}$, es el mismo que el elemento
-tal que $a_{jk}=a_{kj}^{T}$. 
+tal que $a_{jk}=a_{kj}^{T}$.
 
+\vspace*{0.15cm}
 
 Por tanto, podemos hacer la siguiente sustitución:
 
+\vspace*{0.3cm}
+
 \begin{align*}
-    c_{ij}^{T} &= \Sigma_{k=1}^{n} b_{ki} a_{jk} \\
-               &= \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T} 
+    c_{ij}^{T} & = \Sigma_{k=1}^{n} b_{ki} a_{jk}         \\
+               & = \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T}
 \end{align*}
 
-Por defición de multiplicacion de matrices el elemento 
-$ c_{ij}^{T} = \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T} $ es el ij-ésimo de la multiplicación de 
+Por defición de multiplicacion de matrices el elemento
+$ c_{ij}^{T} = \Sigma_{k=1}^{n} b_{ik}^{T} a_{kj}^{T} $ es el ij-ésimo de la multiplicación de
 matrices $ \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T} $.
 
-\vspace*{0.35cm}
+\vspace*{0.5cm}
 
-Anteriormente tambíen se mostró que $ c_{ij}^{T}  $ es el ij-ésimo de la multiplicación de 
+Anteriormente tambíen se mostró que $ c_{ij}^{T}  $ es el ij-ésimo de la multiplicación de
 la matriz $(AB)^{T}$.
 
-\vspace*{0.35cm}
+\vspace*{0.5cm}
 
 $ \therefore $ $(AB)^{T}$ y  $ \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T} $
 son matrices iguales término a término
@@ -103,3 +114,88 @@ son matrices iguales término a término
     \Rightarrow  (AB)^{T} = \left(b_{ij}\right)_{nxn}^{T} \left(a_{ij}\right)_{nxn}^{T}
 \end{equation*}
 
+\vspace*{1cm}
+
+% problema b)
+
+\noindent
+\textbf{b. $ (AB)^{-1} = B^{-1} A^{-1}  $}
+
+\vspace*{0.5cm}
+
+\noindent
+P.D: $ \left(AB\right)^{-1} = B^{-1} A^{-1} $
+
+\vspace*{0.45cm}
+
+\emph{Demostracion.}
+
+\vspace{0.45cm}
+
+Una manera de probar la veracidad de esta igualdad es reducir la expresión a una igualdad
+de identidades, así demostramos que la proposición de la que partimos es verdadera.
+
+\vspace{0.2cm}
+
+\begin{gather*}
+    \Rightarrow \left(AB\right)^{-1} = B^{-1} A^{-1}
+\end{gather*}
+
+\vspace*{0.2cm}
+
+Multiplicamos ambos lados de la igualdad por $AB$ :
+
+\begin{gather*}
+    \Rightarrow \left(AB\right)^{-1} \left(AB\right) = B^{-1} A^{-1} \left(AB\right)
+\end{gather*}
+
+\vspace*{0.2cm}
+
+Por defición de matriz inversa tenemos que: $ \left(AB\right)^{-1} \left(AB\right) = I $
+
+\begin{gather*}
+    \Rightarrow I =B^{-1} A^{-1} \left(AB\right)
+\end{gather*}
+
+\vspace*{0.2cm}
+
+Por asociatividad de matrices:
+
+\begin{align*}
+    \left(B\right)^{-1} \left(A\right)^{-1} \left(AB\right) & = B^{-1} A^{-1} \left(AB\right) \\
+                                                            & =B^{-1} A^{-1} AB               \\
+                                                            & =B^{-1} \left(A^{-1} A\right) B
+\end{align*}
+
+\vspace*{0.2cm}
+
+Por defición de matriz inversa: $ A^{-1} A = I $
+
+\begin{equation*}
+    \Rightarrow I = B^{-1} IB
+\end{equation*}
+
+\vspace*{0.2cm}
+
+Como $ IB= B $
+
+\begin{equation*}
+    \Rightarrow I = B^{-1} B
+\end{equation*}
+
+\vspace*{0.2cm}
+
+Por defición de matriz inversa: $ B^{-1} B = I $
+
+\begin{equation*}
+    \Rightarrow I = I
+\end{equation*}
+
+\vspace*{0.2cm}
+
+Al reducir la expresión inicial a una igualdad de matrices identidad hemos demostrado la
+veracidad de la proposición inicial.
+
+\begin{equation*}
+    (AB)^{-1} = B^{-1} A^{-1} \blacksquare
+\end{equation*}
