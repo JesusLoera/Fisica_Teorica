@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1615692157 "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/main.tex" "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.pdf" "main" 1615692162
+["pdflatex"] 1616104229 "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/main.tex" "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.pdf" "main" 1616104235
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993058356 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993058358 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993058362 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -94,7 +94,7 @@
   "C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs10.tfm" 1610574221 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs5.tfm" 1610574223 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1613942961 3764665 f8c0975f42a99c37c78b78c53063295c ""
-  "C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1614735278 80222 3bf294a2028260ce347031a728e9a265 ""
+  "C:/Users/Jesus Loera/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1616104044 80222 3bf294a2028260ce347031a728e9a265 ""
   "C:/Users/Jesus Loera/AppData/Roaming/MiKTeX/2.9/tex/generic/circuitikz/pgfcirc.defines.tex" 1613851350 29007 2dfa2a4bdb75c824593375d71f149f79 ""
   "C:/Users/Jesus Loera/AppData/Roaming/MiKTeX/2.9/tex/generic/circuitikz/pgfcircbipoles.tex" 1613851350 226090 5898efded45bff58132192a002d1eed0 ""
   "C:/Users/Jesus Loera/AppData/Roaming/MiKTeX/2.9/tex/generic/circuitikz/pgfcirccurrent.tex" 1613851350 8757 538421880b4d71e7e8a1bad54c27874d ""
@@ -187,9 +187,9 @@
   "C:/Users/Jesus Loera/AppData/Roaming/MiKTeX/2.9/tex/latex/vmargin/vmargin.sty" 1090544724 7055 5eae49c3f07fead60d92def0a4f5c30f ""
   "FCFM.png" 1615671306 559959 410a465df00c29b197398654c5334e0b ""
   "abstract.tex" 1615671817 229 891b0da7f0ba1d328307aec0de98de89 ""
-  "build_1/main.aux" 1615692162 523 70d2b9fd9fdaf2363c395a4e8c053ce4 "pdflatex"
-  "build_1/main.toc" 1615692162 243 35a2e9b9554e0211981f82575de3ed64 "pdflatex"
-  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.aux" 1615692162 523 70d2b9fd9fdaf2363c395a4e8c053ce4 ""
+  "build_1/main.aux" 1616104234 523 70d2b9fd9fdaf2363c395a4e8c053ce4 "pdflatex"
+  "build_1/main.toc" 1616104234 243 35a2e9b9554e0211981f82575de3ed64 "pdflatex"
+  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.aux" 1616104234 523 70d2b9fd9fdaf2363c395a4e8c053ce4 ""
   "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/main.tex" 1615671632 749 eeff8468818fecf67bf9b2e7f4ce134d ""
   "main.tex" 1615671632 749 eeff8468818fecf67bf9b2e7f4ce134d ""
   "masa_resorte.png" 1615684401 3652 d93b6686db004b2c05e460910842336f ""
@@ -201,9 +201,9 @@
   "problema3.tex" 1615671621 0 d41d8cd98f00b204e9800998ecf8427e ""
   "problema4.tex" 1615692155 8648 73ace67288338468f11a57d962d2221c ""
   (generated)
-  "build_1/main.pdf"
+  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.pdf"
   "build_1/main.toc"
   "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.log"
-  "build_1/main.aux"
   "build_1/main.log"
-  "c:/Users/Jesus Loera/OneDrive - Universidad Autónoma de Nuevo León/FCFM/Cuarto/Mecánica Teórica/Fisica_Teorica/Proyecto_01/build_1/main.pdf"
+  "build_1/main.pdf"
+  "build_1/main.aux"
