@@ -1,0 +1,87 @@
+Considere un proyectil que se dispara verticalmente enu un campo gravitatorio constante. Suponiendo que las velocidades
+iniciales sean iguales, comparar los tiempos necesarios para que el proyectil alcance su alltura máxima:
+\begin{enumerate}
+    \item Cuando la fuerza resistente sea nula.
+    \item Cuando la fuerza resistente es proporcional a la velocidad instantánea del proyectil.
+\end{enumerate}
+
+\noindent \textbf{Modelo matemático:} Sea $y(t)$ la altura de un proyectil en cualquier instante $t$, por la Segunda Ley 
+de Newton se tiene:
+\begin{align*}
+    -mg-mkv &= ma \\
+    -g-kv &= a \\
+    -g-kv &= \frac{dv}{dt} \\
+\end{align*}
+
+\noindent \textbf{Condiciones:} $y(0)=y_{0}$, $\dot{y}(0)=v_{0}$\\
+\vspace{5 mm}
+\noindent \textbf{Interrogante:} $t_{1}$, tal que el proyectil alcance $y_{1,max}$ con $k=0$; $t_{2}$, tal que el proyectil
+alcance $y_{2,max}$ con $k > 0$.
+
+\vspace{5mm}
+\textbf{Solución:}
+\begin{align*}
+    -g-kv &= \frac{dv}{dt} \\
+    \frac{dv}{g+kv} &= -dt \\
+    \int \frac{dv}{g+kv} &= -\int dt \\
+    \frac{\ln(g+kv)}{k} &= -t + C_{1}^{*} \\
+    \ln(g+kv) &= -kt + C_{1} \\
+    g + kv &= e^{-kt+C_{1}} \\
+    g + kv &= e^{C_{1}}e^{-kt} \\
+    kv &= C_{1}e^{-kt}-g
+\end{align*}
+
+\vspace{5 mm}
+Aplicando la condición inicial $v(0)=v_{0}$:
+\begin{align*}
+    kv_{0} &= C_{1}-g \\
+    \Rightarrow C_{1} &= g+kv_{0} \\
+    kv &= (g+kv_{0})e^{-kt}-g \\
+    \therefore v(t) &= \frac{g+kv_{0}}{k}e^{-kt} - \frac{g}{k}
+    %k\frac{dy}{dt} &= (g+kv_{0})e^{-kt}-g \\
+    %kdy &= [(g+kv_{0})e^{-kt}-g]dt \\
+    %\int kdy &= \int [(g+kv_{0})e^{-kt}-g]dt \\
+    %ky &= -\frac{(g+kv_{0})e^{-kt}}{k} - gt + C_{2}^{*} \\
+    %y &= -\frac{(g+kv_{0})e^{-kt}}{k^{2}} -\frac{g}{k}t + C_{2} \\
+\end{align*}
+
+%\vspace{5 mm}
+%Aplicando la condición inicial $y(0)=y_{0}$:
+%\begin{align*}
+%    y_{0} &= -\frac{g+kv_{0}}{k^{2}} + C_{2} \\
+%    \Rightarrow C_{2} &= y_{0} + \frac{g+kv_{0}}{k^{2}} \\
+%    y &= -\frac{(g+kv_{0})e^{-kt}}{k^{2}} -\frac{g}{k}t + y_{0} + \frac{g+kv_{0}}{k^{2}} \\
+%    \therefore y(t) &= \frac{g+kv_{0}}{k^{2}} (1-e^{-kt}) - \frac{g}{k}t + y_{0}
+%\end{align*}
+
+%\vspace{5 mm}
+%Se tiene: $kv = C_{1}e^{-kt}-g$. Se busca $t^{*}$, tal que $v(t^{*})=0$.
+%\begin{align*}
+%    0 &= (g+kv_{0})e^{-kt^{*}}-g \\
+%    e^{-kt^{*}} &= \frac{g}{g+kv_{0}} \\
+%    -kt^{*} &= \ln \left(\frac{g}{g+kv_{0}}\right) \\
+%    \Rightarrow t^{*} &= -\frac{1}{k} \ln \left(\frac{g}{g+kv_{0}}\right)
+%\end{align*}
+
+%Sustituyendo $t^{*}$ en $y(t)$:
+%\begin{equation*}
+%    y(t^{*}) = \frac{g+kv_{0}}{k^{2}} \left(1-\frac{g}{g+kv_{0}}\right) + \frac{g}{k^{2}} \ln \left(\frac{g}{g+kv_{0}} \right) + y_{0}
+%\end{equation*}
+
+\vspace{5 mm}
+Para hallar el tiempo necesario para que el proyectil alcance $y_{1,max}$ (en un medio con $k>0$), se busca un $t_{1}$ tal que $v(t_{1})=0$.
+\begin{align*}
+    0 &= (g+kv_{0})e^{-kt_{1}}-g \\
+    e^{-kt_{1}} &= \frac{g}{g+kv_{0}} \\
+    -kt_{1} &= \ln \left(\frac{g}{g+kv_{0}}\right) \\
+    \Rightarrow t_{1} &= -\frac{1}{k} \ln \left(\frac{g}{g+kv_{0}}\right)
+\end{align*}
+
+\vspace{5 mm}
+En un medio sin resistencia al aire, es decir, con $k=0$, se puede hallar el tiempo para que el proyectil alcance 
+$y_{2,max}$ a partir de las ecuaciones básicas de cinemática.
+\begin{align*}
+    0 &= v_{0} -gt_{2} \\
+    v_{0} &= gt_{2} \\
+    \Rightarrow t_{2} = \frac{v_{0}}{g}
+\end{align*}

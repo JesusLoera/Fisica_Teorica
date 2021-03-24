@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.21)  14 MAR 2021 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.21)  24 MAR 2021 03:28
 entering extended mode
 **"c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/main.tex"
 (c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/main.tex
@@ -518,28 +518,28 @@ File: eje_coordenado.jpeg Graphic file (type jpg)
 <use eje_coordenado.jpeg>
 Package pdftex.def Info: eje_coordenado.jpeg  used on input line 10.
 (pdftex.def)             Requested size: 192.71169pt x 186.08722pt.
- [1 <./eje_coordenado.jpeg>]) (problema2.tex [2] [3]) (problema3.tex) (problema4.tex
-<masa_resorte.png, id=38, 410.53375pt x 194.7275pt>
+ [1 <./eje_coordenado.jpeg>]) (problema2.tex [2] [3] [4]) (problema3.tex [5] [6]) (problema4.tex
+<masa_resorte.png, id=50, 410.53375pt x 194.7275pt>
 File: masa_resorte.png Graphic file (type png)
 <use masa_resorte.png>
 Package pdftex.def Info: masa_resorte.png  used on input line 17.
 (pdftex.def)             Requested size: 307.89955pt x 146.04524pt.
- [4 <./masa_resorte.png>] [5] [6] [7] [8] [9]) [10] (c:/Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Proyecto_01\build_2\main.aux
+ [7 <./masa_resorte.png>] [8] [9] [10] [11] [12]) [13] (c:/Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Proyecto_01\build_2\main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 27915 strings out of 479334
- 682214 string characters out of 2865020
- 1174608 words of memory out of 3000000
- 44988 multiletter control sequences out of 15000+200000
- 416010 words of font info for 58 fonts, out of 3000000 for 9000
+ 27917 strings out of 479334
+ 682236 string characters out of 2865020
+ 1174607 words of memory out of 3000000
+ 44989 multiletter control sequences out of 15000+200000
+ 416694 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,12n,106p,625b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on "c:/Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Proyecto_01\build_2\main.pdf" (11 pages, 480285 bytes).
+ <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on "c:/Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Proyecto_01\build_2\main.pdf" (14 pages, 496380 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
+ 386 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

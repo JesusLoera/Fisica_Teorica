@@ -663,6 +663,7 @@ INPUT .\problema2.tex
 INPUT problema2.tex
 INPUT .\problema2.tex
 INPUT problema2.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT .\problema3.tex
 INPUT problema3.tex
 INPUT .\problema3.tex
@@ -679,6 +680,8 @@ INPUT .\masa_resorte.png
 INPUT .\masa_resorte.png
 INPUT .\masa_resorte.png
 INPUT c:\Users\cesar\Documents\César Efrén Valladares Rocha\Facultad de Ciencias Físico-Matemáticas\Licenciatura en Física\4to. Semestre\Mecánica Teórica\Tareas LaTeX\Fisica_Teorica\Proyecto_01\build_2\main.aux
+INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\cesar\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
