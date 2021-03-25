@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1616578088 "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/main.tex" "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.pdf" "main" 1616578104
+["pdflatex"] 1616638671 "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/main.tex" "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.pdf" "main" 1616638691
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993058356 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993058358 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993058362 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -177,9 +177,9 @@
   "C:/Users/cesar/AppData/Roaming/MiKTeX/2.9/tex/latex/vmargin/vmargin.sty" 1090544724 7055 5eae49c3f07fead60d92def0a4f5c30f ""
   "FCFM.png" 1615763193 559959 410a465df00c29b197398654c5334e0b ""
   "abstract.tex" 1615763193 229 891b0da7f0ba1d328307aec0de98de89 ""
-  "build_2/main.aux" 1616578103 587 ebd57c4353c6f4e8f2453d74acd87785 "pdflatex"
-  "build_2/main.toc" 1616578103 251 3b66ff50843bcd82257614b4d632673b "pdflatex"
-  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.aux" 1616578103 587 ebd57c4353c6f4e8f2453d74acd87785 ""
+  "build_2/main.aux" 1616638689 587 ebd57c4353c6f4e8f2453d74acd87785 "pdflatex"
+  "build_2/main.toc" 1616638689 251 3b66ff50843bcd82257614b4d632673b "pdflatex"
+  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.aux" 1616638689 587 ebd57c4353c6f4e8f2453d74acd87785 ""
   "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/main.tex" 1616571394 668 fc288cd852b58547e24d7ae82223cf30 ""
   "eje_coordenado.jpeg" 1615768827 33895 eaa0b322aab5a1fe179ae2a8da4587b3 ""
   "main.tex" 1616571394 668 fc288cd852b58547e24d7ae82223cf30 ""
@@ -189,12 +189,12 @@
   "preambulo.tex" 1615763193 1225 56534222bff694b46f6e760364cc0c17 ""
   "problema1.tex" 1616575672 1887 73e482718c89b371d21668f44cc7bf69 ""
   "problema2.tex" 1616571394 4891 54dd7691a011c2b4065345881253e9c4 ""
-  "problema3.tex" 1616578082 3420 ef906aafaa508cdb49482c77653400b9 ""
-  "problema4.tex" 1615763193 8648 73ace67288338468f11a57d962d2221c ""
+  "problema3.tex" 1616638548 3893 3066b7dea0a03dc59ee3419be82ad5be ""
+  "problema4.tex" 1616638668 8646 c4ca6a7f241c546cfff77863ef5b969b ""
   (generated)
-  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.log"
+  "build_2/main.toc"
+  "build_2/main.log"
   "build_2/main.pdf"
   "build_2/main.aux"
-  "build_2/main.log"
-  "build_2/main.toc"
   "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.pdf"
+  "c:/Users/cesar/Documents/César Efrén Valladares Rocha/Facultad de Ciencias Físico-Matemáticas/Licenciatura en Física/4to. Semestre/Mecánica Teórica/Tareas LaTeX/Fisica_Teorica/Proyecto_01/build_2/main.log"
