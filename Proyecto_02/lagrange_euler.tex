@@ -1,0 +1,243 @@
+
+% PÁGINA 1
+
+\noindent
+
+Solución.
+
+\vspace*{0.5cm}
+
+Consideremos la integral:
+
+\begin{equation}
+    J = \int_{x_{1}}^{x_{2}} f\left[ y, z, y_{x}, z_{x}; x \right] dx
+\end{equation}
+
+Donde tenemos:
+
+\begin{gather}
+    y_{x} = \frac{\partial y}{\partial x} \\
+    z_{x} = \frac{\partial z}{\partial x}
+\end{gather}
+
+\vspace*{0.5cm}
+
+Y también una restricción de la forma:
+
+\vspace*{0.5cm}
+
+\begin{equation}
+    g\left[ y,z;x \right] = 0
+\end{equation}
+
+\vspace*{0.5cm}
+
+Consideremos la condición para que J sea un valor extremo:
+
+\vspace*{0.5cm}
+
+\begin{equation}
+    \left[ \frac{\partial J}{\partial \alpha} \right]_{\alpha = 0} = 0
+\end{equation}
+
+\vspace*{0.5cm}
+
+Primeramente demos una forma paramétrica a y,z, en términos de $\alpha$, $x$:
+
+\begin{gather}
+    y(\alpha,x) = y(0,x) + \alpha \eta_{1} (x) \\
+    z(\alpha,x) = z(0,x) + \alpha \eta_{2} (x)
+\end{gather}
+
+\vspace*{0.5cm}
+
+Con las siguientes condiciones:
+
+\begin{enumerate}
+    \item En los extremos $\eta_{1} (x)$ y $\eta_{2} (x)$ son iguales a cero.
+    \item $\eta_{1} (x)$ y $\eta_{2} (x)$ son diferenciables en $(x_{1}, x_{2})$
+\end{enumerate}
+
+% PÁGINA 2
+
+\vspace{0.5cm}
+
+Aplicamos la condición (5) a (1):
+
+\begin{equation*}
+    \frac{\partial J}{\partial \alpha} =
+    \frac{\partial}{\partial \alpha}
+    \left[
+        \int_{x_{1}}^{x_{2}}
+        f\left[ y, z, y_{x}, z_{x}; x \right]
+        dx
+        \right]
+\end{equation*}
+
+\vspace*{0.5cm}
+
+Aplicamos la regla de la cadena al lado derecho de la igualdad:
+
+\vspace*{0.5cm}
+
+\begin{equation}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}}
+    \left[
+        \frac{\partial f}{\partial y} \frac{\partial y}{\partial \alpha} +
+        \frac{\partial f}{\partial y_{x}} \frac{\partial y_{x}}{\partial \alpha} +
+        \frac{\partial f}{\partial z} \frac{\partial z}{\partial \alpha} +
+        \frac{\partial f}{\partial z_{x}} \frac{\partial z_{x}}{\partial \alpha}
+        \right]
+    dx
+\end{equation}
+
+\vspace*{0.5cm}
+
+Derivando parcialmente respecto a $\alpha$ las ecuaciones de (6) y (7)
+
+\begin{align*}
+    \frac{\partial}{\partial \alpha} y(\alpha,x) & = \frac{\partial}{\partial \alpha} \left[ y(0,x) + \alpha \eta_{1} (x) \right]                    \\
+                                                 & = \frac{\partial}{\partial \alpha}  y(0,x) + \frac{\partial}{\partial \alpha} \alpha \eta_{1} (x) \\
+                                                 & = \eta_{1} (x)
+\end{align*}
+
+\vspace*{0.5cm}
+
+\begin{align*}
+    \frac{\partial}{\partial \alpha} z(\alpha,x) & = \frac{\partial}{\partial \alpha} \left[ z(0,x) + \alpha \eta_{2} (x) \right]                    \\
+                                                 & = \frac{\partial}{\partial \alpha}  z(0,x) + \frac{\partial}{\partial \alpha} \alpha \eta_{2} (x) \\
+                                                 & = \eta_{2} (x)
+\end{align*}
+
+\vspace*{0.5cm}
+
+Por tanto, tenemos las siguientes ecuaciones:
+
+\begin{gather}
+    \frac{\partial y}{\partial \alpha} = \eta_{1} (x) \\
+    \frac{\partial z}{\partial \alpha} = \eta_{2} (x)
+\end{gather}
+
+\vspace*{0.5cm}
+
+Ahora hallamos $\frac{\partial y_{x}}{\partial \alpha}$ y $\frac{\partial z_{x}}{\partial \alpha}$ :
+
+\vspace*{0.5cm}
+
+\begin{align*}
+    \frac{\partial y_{x}}{\partial \alpha} & =  \frac{\partial}{\partial \alpha} \frac{dy}{dx} \\
+                                           & = \frac{\partial}{\partial \alpha} \frac{d}{dx}
+    \left[ y(0,x) + \alpha \eta_{1} (x) \right]                                                \\
+                                           & = \frac{\partial}{\partial \alpha}
+    \left[ y^{'} (0,x) + \alpha \eta_{1}^{'} (x) \right]                                       \\
+                                           & = \eta_{1}^{'} (x)                                \\
+                                           & = \frac{d \eta_{1}}{dx}
+\end{align*}
+
+\vspace*{0.5cm}
+
+\begin{align*}
+    \frac{\partial z_{x}}{\partial \alpha} & = \frac{\partial}{\partial \alpha} \frac{dz}{dx} \\
+                                           & = \frac{\partial}{\partial \alpha} \frac{d}{dx}
+    \left[ z(0,x) + \alpha \eta_{2} (x) \right]                                               \\
+                                           & = \frac{\partial}{\partial \alpha}
+    \left[ z^{'} (0,x) + \alpha \eta_{2}^{'} (x) \right]                                      \\
+                                           & = \eta_{2}^{'} (x)                               \\
+                                           & = \frac{d \eta_{2}}{dx}
+\end{align*}
+
+\vspace*{0.5cm}
+
+% PÁGINA 3
+
+Por tanto tenemos las siguientes ecuaciones:
+
+\begin{gather}
+    \frac{\partial y_{x}}{\partial \alpha} = \frac{d \eta_{1}}{dx} \\
+    \frac{\partial z_{x}}{\partial \alpha} = \frac{d \eta_{2}}{dx}
+\end{gather}
+
+\vspace*{0.5cm}
+
+Sustituyendo (9), (10), (11) y (12) en (8):
+
+\vspace*{0.5cm}
+
+\begin{equation*}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}}
+    \left[
+        \frac{\partial f}{\partial y} \eta_{1}  +
+        \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} +
+        \frac{\partial f}{\partial z} \eta_{2}  +
+        \frac{\partial f}{\partial z_{x}}  \frac{d \eta_{2}}{dx}
+        \right]
+    dx
+\end{equation*}
+
+
+Separamos la integral en sumas de integrales:
+
+\vspace*{0.5cm}
+
+\begin{equation}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y} \eta_{1}   dx
+    +\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} dx
+    +\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z} \eta_{2}  dx
+    +\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z_{x}}  \frac{d \eta_{2}}{dx} dx
+\end{equation}
+
+Prestemos atención en los siguientes términos
+
+$$
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} dx
+$$
+
+$$
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z_{x}}  \frac{d \eta_{2}}{dx} dx
+$$
+
+de la ecuación (13).
+
+\vspace*{0.5cm}
+
+\begin{itemize}
+    \item $$\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} dx$$
+\end{itemize}
+
+Hacemos $u=\frac{\partial f}{\partial y_{x}}$ y $dv=\frac{d \eta_{1}}{dx} dx$
+
+\vspace*{0.5cm}
+
+Entonces $du=\frac{d}{dx} \frac{\partial f}{\partial y_{x}} dx$ y $v=\eta_{1} (x)$
+
+\vspace*{0.5cm}
+
+Por lo tanto
+
+\begin{equation*}
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} dx =
+    \left[ \frac{\partial f}{\partial y_{x}} \eta_{1} (x) \right]  \bigg\rvert_{x_{1}}^{x_{2}} -
+    \int_{x_{1}}^{x_{2}} \eta_{1} (x) \frac{d}{dx} \frac{\partial f}{\partial y_{x}} dx
+\end{equation*}
+
+\vspace*{0.5cm}
+
+Como $\eta_{1} (x_{1})=\eta_{1} (x_{2})=0$ implica que:
+
+\begin{equation*}
+    \left[ \frac{\partial f}{\partial y_{x}} \eta_{1} (x) \right]  \bigg\rvert_{x_{1}}^{x_{2}} = 0
+\end{equation*}
+
+\vspace*{0.5cm}
+
+Sustituyendo esta expresión en la integral anterior:
+
+\vspace*{0.5cm}
+
+\begin{equation}
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y_{x}}  \frac{d \eta_{1}}{dx} dx =
+    -\int_{x_{1}}^{x_{2}} \eta_{1} (x) \frac{d}{dx} \frac{\partial f}{\partial y_{x}} dx
+\end{equation}
