@@ -1,1 +1,150 @@
-penepenepene
+\begin{itemize}
+    \item $$\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z_{x}}  \frac{d \eta_{2}}{dx} dx$$
+\end{itemize}
+
+De manera análoga, aplicando el mismo procedimiento de cambio de variable con
+$u=\frac{\partial f}{\partial z_{x}}$ y $dv=\frac{d \eta_{2}}{dx} dx$
+
+\vspace*{0.5cm}
+Se obtiene que:
+\begin{equation}
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z_{x}}  \frac{d \eta_{2}}{dx} dx =
+    -\int_{x_{1}}^{x_{2}} \eta_{2} (x) \frac{d}{dx} \frac{\partial f}{\partial z_{x}} dx
+\end{equation}
+
+\vspace*{0.5cm}
+Sustituyendo las ecuaciones (14), (15) en (13):
+\begin{align*}
+    \frac{\partial J}{\partial \alpha} &=
+    \int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial y} \eta_{1}   dx
+    -\int_{x_{1}}^{x_{2}} \eta_{1} \frac{d}{dx} \frac{\partial f}{\partial y_{x}} dx
+    +\int_{x_{1}}^{x_{2}} \frac{\partial f}{\partial z} \eta_{2}  dx
+    -\int_{x_{1}}^{x_{2}} \eta_{2} \frac{d}{dx} \frac{\partial f}{\partial z_{x}} dx \\
+    \frac{\partial J}{\partial \alpha} &=
+    \int_{x_{1}}^{x_{2}} \left( \frac{\partial f}{\partial y} \eta_{1} - \eta_{1} \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) dx
+    + \int_{x_{1}}^{x_{2}} \left( \frac{\partial f}{\partial z} \eta_{2} - \eta_{2} \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) dx
+\end{align*}
+
+\begin{equation}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}} \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) \eta_{1}(x) dx
+    + \int_{x_{1}}^{x_{2}} \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \eta_{2}(x) dx
+\end{equation}
+
+\vspace*{0.5cm}
+\textbf{Obs.} En (16) $\frac{\partial y}{\partial \alpha}$ y $\frac{\partial z}{\partial \alpha}$ no son independientes,
+ya que $y$,$z$ están relacionadas por la restricción (4) $g\left[ y,z;x \right] = 0$ y por tanto no podemos separar la
+integral y hacer los términos en paréntesis iguales a cero.
+
+\vspace*{0.5cm}
+Ahora derivamos parcialmente a $g$ respecto a $\alpha$:
+\begin{equation*}
+    \frac{\partial}{\partial \alpha} g\left[ y,z;x \right] = \frac{\partial}{\partial \alpha} 0
+\end{equation*}
+
+Por regla de la cadena:
+\begin{equation}
+    \frac{\partial g}{\partial y} \frac{\partial y}{\partial \alpha}
+    + \frac{\partial g}{\partial z} \frac{\partial z}{\partial \alpha} = 0
+\end{equation}
+
+Sustituyendo (9), (10) en (17):
+\begin{equation*}
+    \frac{\partial g}{\partial y} \eta_{1}(x) + \frac{\partial g}{\partial z} \eta_{2}(x) = 0
+\end{equation*}
+\begin{equation}
+    \frac{\partial g}{\partial y} \eta_{1}(x) = - \frac{\partial g}{\partial z} \eta_{2}(x)
+\end{equation}
+
+Retomando la ecuación (16) y uniendo la integral:
+\begin{equation*}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}} \left[ \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) \eta_{1}(x)
+    + \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \eta_{2}(x) \right] dx
+\end{equation*}
+
+Ahora factorizamos un $\eta_{1}(x)$:
+\begin{equation}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}} \left[ \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right)
+    + \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \frac{\eta_{2}(x)}{\eta_{1}(x)} \right] \eta_{1}(x)dx
+\end{equation}
+
+Despejando $\frac{\eta_{2}(x)}{\eta_{1}(x)}$ de (18):
+\begin{equation*}
+    \frac{\partial g}{\partial y} \eta_{1}(x) = - \frac{\partial g}{\partial z} \eta_{2}(x)
+\end{equation*}
+\begin{equation}
+    \frac{\eta_{2}(x)}{\eta_{1}(x)} = - \frac{\partial g/\partial y}{\partial g/\partial z}
+\end{equation}
+
+Sustituyendo (20) en (19):
+\begin{equation}
+    \frac{\partial J}{\partial \alpha} =
+    \int_{x_{1}}^{x_{2}} \left[ \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right)
+    + \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( - \frac{\partial g/\partial y}{\partial g/\partial z} \right) \right] \eta_{1}(x)dx
+\end{equation}
+
+\vspace*{0.5cm}
+\textbf{Obs.} En la ecuación (21) vemos que $\eta_{1}(x) \neq 0$ para toda $x$ en el intervalo $(x_{1},x_{2})$ y no
+depende de $\alpha$.
+
+\vspace*{0.5cm}
+Aplicamos la condición (5) a (21):
+\begin{equation}
+    \int_{x_{1}}^{x_{2}} \left[ \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right)
+    + \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( - \frac{\partial g/\partial y}{\partial g/\partial z} \right) \right] \eta_{1}(x)dx = 0
+\end{equation}
+
+La observación anterior implica lo siguiente:
+\begin{equation*}
+    \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}}
+    + \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( - \frac{\partial g/\partial y}{\partial g/\partial z} \right) = 0
+\end{equation*}
+
+Haciendo algo de álgebra:
+\begin{equation*}
+    \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} =
+    \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( \frac{\partial g/\partial y}{\partial g/\partial z} \right)
+\end{equation*}
+\begin{equation}
+    \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) \left( \frac{\partial g}{\partial y} \right)^{-1} =
+    \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( \frac{\partial g}{\partial z} \right)^{-1}
+\end{equation}
+
+\vspace*{0.5cm}
+\textbf{Obs.} Ambos lados de la ecuación (23) son funciones de la variable $x$.
+
+\vspace*{0.5cm}
+Hacemos (23) igual a una función $\lambda'(x)$.
+\begin{equation}
+    \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) \left( \frac{\partial g}{\partial y} \right)^{-1} =
+    \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( \frac{\partial g}{\partial z} \right)^{-1} =
+    \lambda'(x)
+\end{equation}
+De (24) se desprenden las siguientes ecuaciones:
+\begin{align*}
+    \left( \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} \right) \left( \frac{\partial g}{\partial y} \right)^{-1} &= \lambda'(x) \\
+    \left( \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} \right) \left( \frac{\partial g}{\partial z} \right)^{-1} &= \lambda'(x) \\
+\end{align*}
+
+Haciendo algo de álgebra:
+\begin{align*}
+    \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} &= \lambda'(x) \frac{\partial g}{\partial y} \\
+    \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} &= \lambda'(x) \frac{\partial g}{\partial z}
+\end{align*}
+\begin{align*}
+    \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} - \lambda'(x) \frac{\partial g}{\partial y} &= 0 \\
+    \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} - \lambda'(x) \frac{\partial g}{\partial z} &= 0
+\end{align*}
+
+\vspace*{0.5cm}
+Haciendo el cambio de variable $\lambda(x) = - \lambda'(x)$:
+\begin{align}
+    \frac{\partial f}{\partial y} - \frac{d}{dx} \frac{\partial f}{\partial y_{x}} + \lambda(x) \frac{\partial g}{\partial y} &= 0 \\
+    \frac{\partial f}{\partial z} - \frac{d}{dx} \frac{\partial f}{\partial z_{x}} + \lambda(x) \frac{\partial g}{\partial z} &= 0
+\end{align}
+
+\vspace*{0.5cm}
+Es así finalmente como las ecuaciones (25) y (26) representan las ecuaciones de Euler-Lagrange con una variable independiente, dos variables
+dependientes y una restricción de ligadura.
